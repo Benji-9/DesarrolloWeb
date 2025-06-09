@@ -1,0 +1,29 @@
+<!-- ejercicio4.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio 04</title>
+</head>
+<body>
+  <h1>Ejercicio 04</h1>
+  <p id="resultado"></p>
+  <script>
+    let dia = parseInt(prompt("Ingrese un número del 1 al 7"));
+    let nombreDia;
+
+    switch (dia) {
+      case 1: nombreDia = "Lunes"; break;
+      case 2: nombreDia = "Martes"; break;
+      case 3: nombreDia = "Miércoles"; break;
+      case 4: nombreDia = "Jueves"; break;
+      case 5: nombreDia = "Viernes"; break;
+      case 6: nombreDia = "Sábado"; break;
+      case 7: nombreDia = "Domingo"; break;
+      default: nombreDia = "Número inválido";
+    }
+
+    document.getElementById("resultado").textContent = "Día: " + nombreDia;
+  </script>
+</body>
+</html>

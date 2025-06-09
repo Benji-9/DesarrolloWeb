@@ -1,0 +1,32 @@
+<!-- ejercicio5.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio 05</title>
+  <script>
+    let pares = 0, impares = 0;
+    let sumaPares = 0, sumaImpares = 0;
+
+    for (let i = 1; i <= 10; i++) {
+      let num = parseInt(prompt("Ingrese número " + i));
+      if (num % 2 === 0) {
+        pares++;
+        sumaPares += num;
+      } else {
+        impares++;
+        sumaImpares += num;
+      }
+    }
+
+    let grupoGanador = sumaPares > sumaImpares ? "pares" : "impares";
+
+    alert("Pares: " + pares + " (Suma: " + sumaPares + ")" +
+          "\nImpares: " + impares + " (Suma: " + sumaImpares + ")" +
+          "\nGrupo con mayor suma: " + grupoGanador);
+  </script>
+</head>
+<body>
+  <h1>Ejercicio 05</h1>
+</body>
+</html>

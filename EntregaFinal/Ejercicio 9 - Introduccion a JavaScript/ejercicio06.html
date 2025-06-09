@@ -1,0 +1,22 @@
+<!-- ejercicio6.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio 06</title>
+</head>
+<body>
+  <h1>Ejercicio 06</h1>
+  <ol id="listaNumeros"></ol>
+
+  <script>
+    let numero;
+    do {
+      numero = parseInt(prompt("Ingrese un número"));
+      let item = document.createElement("li");
+      item.textContent = numero;
+      document.getElementById("listaNumeros").appendChild(item);
+    } while (numero <= 10);
+  </script>
+</body>
+</html>

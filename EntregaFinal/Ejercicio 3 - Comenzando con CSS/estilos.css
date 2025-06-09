@@ -1,0 +1,91 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 40px;
+    background-color: #ffffff;
+    color: #333333;
+    line-height: 1.6;
+  }
+  
+  /* Títulos principales */
+  h1 {
+    font-size: 2.5em;
+    color: #4a148c;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 2em;
+    color: #880e4f;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #880e4f;
+    padding-bottom: 5px;
+  }
+  
+  h3 {
+    font-size: 1.5em;
+    color: #00695c;
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+  
+  /* Párrafos */
+  .intro {
+    font-size: 1em;
+    color: salmon;
+    margin-bottom: 20px;
+  }
+  .carreras {
+    font-size: 1em;
+    color: purple;
+    margin-bottom: 20px;
+  }
+  .cortos {
+    font-size: 1em;
+    color: seagreen;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 1em;
+    color:blueviolet;
+    margin-bottom: 15px;
+  }
+  
+  /* Layout general */
+  header {
+    margin-bottom: 40px;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  article {
+    margin-bottom: 30px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    body {
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 2em;
+    }
+  
+    h2 {
+      font-size: 1.75em;
+    }
+  
+    h3 {
+      font-size: 1.25em;
+    }
+  }  
